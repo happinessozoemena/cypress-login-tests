@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Cypress config cache
+.cypress-cache/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
