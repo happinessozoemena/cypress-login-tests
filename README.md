@@ -1,3 +1,27 @@
+## Why I Chose Cypress Instead of Puppeteer
+
+Purpose-Built for Testing
+
+Cypress is designed specifically for end-to-end testing, with built-in support for assertions, test runner, and time-travel debugging.
+
+Puppeteer is a general-purpose browser automation library (great for web scraping or simple scripting), not testing-specific.
+
+Better Developer Experience
+
+Cypress provides an interactive Test Runner that shows each test step and its result in real time with a snapshot of the app state.
+
+Easier debugging thanks to time-travel and built-in stack traces.
+
+Built-in Assertions & Wait Handling
+
+Cypress automatically waits for elements to appear or load—no need for manual wait() or retry logic.
+
+Puppeteer requires more manual handling for waits, increasing test flakiness.
+
+Faster Setup for Web UI Testing
+
+Cypress comes preloaded with testing tools (Mocha, Chai, etc.), while Puppeteer would require extra setup and integration.
+
 # 🔐 Cypress Automated Test Suite - Login Page
 
 This repository contains an automated test suite built using **Cypress** and the **Page Object Model (POM)** for testing the login functionality of [The Internet Herokuapp](https://the-internet.herokuapp.com/login).
